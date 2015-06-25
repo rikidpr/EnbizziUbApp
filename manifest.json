@@ -1,0 +1,17 @@
+{
+    "name": "enbizziubapp.riki",
+    "description": "description of EnbizziUbApp",
+    "architecture": "all",
+    "title": "EnbizziUbApp",
+    "hooks": {
+        "EnbizziUbApp": {
+            "apparmor": "EnbizziUbApp.apparmor",
+            "desktop":  "EnbizziUbApp.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "riki <rikerdpr@yahoo.es>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+

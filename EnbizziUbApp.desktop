@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=EnbizziUbApp
+Exec=qmlscene $@ Main.qml
+Icon=EnbizziUbApp.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
