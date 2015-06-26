@@ -4,149 +4,232 @@ import QtQml 2.2
 
 ListModel {
     id: calendarModel
+
+    ListElement {
+        dia: "27"
+        mes: "6"
+        hora: 8
+        route:"Muel-Cariñena-Alfamén"
+        km: 102
+        stop: "Alfamén"
+    }
+    ListElement {
+        dia: "28"
+        mes: "6"
+        hora: 8
+        route:"San Jorge-Gurrea-La Paul"
+        km: 100
+        stop: "La Paul"
+    }
     ListElement {
         dia: "04"
-        mes: "Julio"
+        mes: "7"
         hora: 8
-        destino:"Monegrillo"
+        route:"Monegrillo"
         km: 96
-        Parada: "Monegrillo"
+        stop: "Monegrillo"
     }
     ListElement {
         dia: "05"
-        mes: "Julio"
+        mes: "7"
         hora: 8
-        destino:"Jaulin-Villanueva"
+        route:"Jaulin-Villanueva"
         km: 100
-        Parada: "Villanueva"
+        stop: "Villanueva"
     }
     ListElement {
         dia: "11"
-        mes: "Julio"
+        mes: "7"
         hora: 8
-        destino:"Alcubierre"
+        route:"Alcubierre"
         km: 100
-        Parada: "Alcubierre"
+        stop: "Alcubierre"
     }
     ListElement {
         dia: "12"
-        mes: "Julio"
+        mes: "7"
         hora: 8
-        destino:"Zuera-Sierra Luna"
+        route:"Zuera-Sierra Luna"
         km: 110
-        Parada: "Sierra Luna"
+        stop: "Sierra Luna"
     }
     ListElement {
         dia: "18"
-        mes: "Julio"
+        mes: "7"
         hora: 8
-        destino:"Alto de Aguilón"
+        route:"Alto de Aguilón"
         km: 120
-        Parada: "Villanueva"
+        stop: "Villanueva"
     }
     ListElement {
         dia: "19"
-        mes: "Julio"
+        mes: "7"
         hora: 8
-        destino:"La Muela-Épila"
+        route:"La Muela-Épila"
         km: 94
-        Parada: "Épila"
+        stop: "Épila"
     }
     ListElement {
         dia: "25"
-        mes: "Julio"
+        mes: "7"
         hora: 8
-        destino:"La Puebla-Fuendetodos"
+        route:"La Puebla-Fuendetodos"
         km:120
-        Parada:"Fuendetodos"
+        stop:"Fuendetodos"
     }
     ListElement {
         dia: "26"
-        mes: "Julio"
+        mes: "7"
         hora: 8
-        destino:"Alagón-Pozuelo-Épila"
+        route:"Alagón-Pozuelo-Épila"
         km:124
-        Parada: "Épila"
+        stop: "Épila"
     }
     ListElement {
         dia: "01"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"Zuera-Sierra Luna"
+        route:"Zuera-Sierra Luna"
         km:106
-        Parada: "Sierra Luna"
+        stop: "Sierra Luna"
     }
     ListElement {
         dia: "02"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"Remolinos-Pradilla-Luceni"
+        route:"Remolinos-Pradilla-Luceni"
         km:98
-        Parada: "Pradilla"
+        stop: "Pradilla"
     }
     ListElement {
         dia: "08"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"Castejón de Valdejasa"
+        route:"Castejón de Valdejasa"
         km:90
-        Parada: "Castejón"
+        stop: "Castejón"
     }
     ListElement {
         dia: "09"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"Zuera - El temple - Ontinar"
+        route:"Zuera - El temple - Ontinar"
         km:82
-        Parada: "Ontinar"
+        stop: "Ontinar"
     }
     ListElement {
         dia: "15"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"Alcubierre"
+        route:"Alcubierre"
         km:100
-        Parada: "Alcubierre"
+        stop: "Alcubierre"
     }
     ListElement {
         dia: "16"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"Longares-Alfamén-Almonacid"
+        route:"Longares-Alfamén-Almonacid"
         km:112
-        Parada: "Almonacid"
+        stop: "Almonacid"
     }
     ListElement {
         dia: "22"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"La Muela-Calatorao-Epila"
+        route:"La Muela-Calatorao-Epila"
         km:114
-        Parada: "Épila"
+        stop: "Épila"
     }
     ListElement {
         dia: "23"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"Monegrillo"
+        route:"Monegrillo"
         km:96
-        Parada: "Monegrillo"
+        stop: "Monegrillo"
     }
     ListElement {
         dia: "29"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"San Jorge-Gurrea-La Paul"
+        route:"San Jorge-Gurrea-La Paul"
         km:100
-        Parada: "La Paul"
+        stop: "La Paul"
     }
     ListElement {
         dia: "30"
-        mes: "Agosto"
+        mes: "8"
         hora: 8
-        destino:"Jaulín-Villanueva"
+        route:"Jaulín-Villanueva"
         km:100
-        Parada: "Villanueva"
+        stop: "Villanueva"
+    }
+
+
+    ListElement {
+        dia: "05"
+        mes: "9"
+        hora: 8.5
+        route:"Longares-Alfamén"
+        km:90
+        stop: "Alfamén"
+    }
+    ListElement {
+        dia: "06"
+        mes: "9"
+        hora: 8.5
+        route:"Jaulin-Fuendetodos"
+        km:90
+        stop: "Fuendetodos"
+    }
+    ListElement {
+        dia: "12"
+        mes: "9"
+        hora: 8.5
+        route:"La Muela-Épila"
+        km:94
+        stop: "Épila"
+    }
+    ListElement {
+        dia: "13"
+        mes: "9"
+        hora: 8.5
+        route:"Cruce de Mediana - Fuentes"
+        km:80
+        stop: "Fuentes"
+    }
+    ListElement {
+        dia: "19"
+        mes: "9"
+        hora: 8.5
+        route:"Muel-Cariñena"
+        km:90
+        stop: "Cariñena"
+    }
+    ListElement {
+        dia: "20"
+        mes: "9"
+        hora: 8.5
+        route:"Castejón de Valdejasa"
+        km:90
+        stop: "Castejón"
+    }
+    ListElement {
+        dia: "26"
+        mes: "9"
+        hora: 8.5
+        route:"Zuera-Cruce Las Pedrosas-La Paul"
+        km:106
+        stop: "La Paul"
+    }
+    ListElement {
+        dia: "27"
+        mes: "9"
+        hora: 8.5
+        route:"Villanueva de Huerva"
+        km:90
+        stop: "Villanueva"
     }
 
 }
