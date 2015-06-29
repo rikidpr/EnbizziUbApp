@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Ubuntu.Components 1.1
 import "model"
+import "contracts"
 
 /*!
     \brief MainView with a Label and Button elements.
@@ -24,6 +25,10 @@ MainView {
 
     width: units.gu(100)
     height: units.gu(75)
+
+    EnbizziContracts {
+        id: cons
+    }
 
     Page {
         title: i18n.tr("EnbizziUbApp")
@@ -75,7 +80,7 @@ MainView {
                     id: banner
                     width: parent.width; height: 50
                     gradient: clubcolors
-                    border {color: "#0040FF"; width: 2}
+                    border {color: cons.azulEnbizzi; width: 2}
                     Text {
                         anchors.centerIn: parent
                         text: "Salidas"
@@ -86,8 +91,8 @@ MainView {
             }
             Gradient {
                 id: clubcolors
-                GradientStop { position: 0.0; color: "#000099"}
-                GradientStop { position: 0.66; color: "#0000FF"}
+                GradientStop { position: 0.0; color: cons.azulOscuroEnbizzi}
+                GradientStop { position: 0.66; color: cons.azulClaroEnbizzi}
             }
 
             Component {
