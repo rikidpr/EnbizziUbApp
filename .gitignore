@@ -36,3 +36,4 @@ Makefile*
 #tests
 tests/
 po/
+js/ApiKeys.js
