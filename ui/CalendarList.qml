@@ -15,13 +15,13 @@ PageWithBottomEdge {
             text: i18n.tr("About...")
             iconName: "help"
             onTriggered: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
-        },
-        Action {
+        }
+       /*, Action {
             id: openMapViewer
             text: i18n.tr("map...")
             iconName: "map"
             onTriggered: pageStack.push(Qt.resolvedUrl("MapViewer.qml"))
-        }
+        }*/
     ]
 
     Column {
